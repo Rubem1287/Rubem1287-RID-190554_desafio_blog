@@ -1,1 +1,1 @@
-# Rubem1287-RID-190554_desafio_pagina_responsiva
+Blog responsivo
