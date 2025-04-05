@@ -365,7 +365,8 @@ li {
   }
 
   /* Posts Polulares div 1*/
-  /*Não consegui fazer a classe e a texto-media, p-media funcionar para diminuir a quantidade de código*/
+  /*Não consegui fazer as classes texto-media e a p-media funcionar para diminuir a quantidade de código, 
+simplesmente não respondia aos comandos*/
   #post_1 {
     width: 100%;
     height: 190px;
