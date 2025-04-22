@@ -7,7 +7,7 @@
 }
 
 header {
-  width: 119.05rem;
+  width: 100%;
   height: 80px;
   color: white;
   background-color: #02a28f;
@@ -23,7 +23,7 @@ header {
 
 #posts_populares {
   margin-left: 81rem;
-  width: 35rem;
+  width: 35.5rem;
   height: 3.0rem;
   background-color: #02a28f;
   color: white;
@@ -31,7 +31,7 @@ header {
   justify-content: space-between;
   font-size: 1.5em;
   padding-top: 0.5em;
-  margin-top: -43.7rem;
+  margin-top: -42rem;
   padding-left: 0.7rem;
 }
 
@@ -39,11 +39,11 @@ header {
 /* Posts Polulares classes*/
 .posts {
   width: 35rem;
-  height: 11rem;
+  height: 10.5rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin-bottom: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 
 }
 
@@ -146,7 +146,7 @@ li {
 }
 
 footer {
-  width: 119.05rem;
+  width: 100%;
   height: 3rem;
   background-color: #02a28f;
   color: white;
@@ -156,7 +156,9 @@ footer {
   margin-top: 80rem;
 }
 
-/*Media querys */
+/*MEDIA QUERYS */
+
+/*Tela cheia*/
 @media (min-width: 769px) {
   #imagem_banner_mobile {
     display: none;
@@ -175,7 +177,8 @@ footer {
   }
 }
 
-@media (min-width:321px) and (max-width: 768px) {
+/*Tablet*/
+@media (min-width:501px) and (max-width: 768px) {
 
 
   header {
@@ -294,7 +297,6 @@ footer {
   }
 
 
-  /* Posts Polulares classes*/
   .posts {
     width: 45rem;
     height: 11rem;
@@ -338,7 +340,8 @@ footer {
 
 }
 
-@media (max-width:320px) {
+/* Tela pequena*/
+@media (max-width:500px) {
 
   * {
     flex-direction: column;
@@ -346,7 +349,7 @@ footer {
   }
 
   header {
-    width: 19.04rem;
+    width: 100%;
     height: 4rem;
     margin-top: -1.5rem;
     color: white;
@@ -379,9 +382,9 @@ footer {
   #h2_posts_recentes {
     font-size: 1.2rem;
     margin-left: 0.4rem;
-    margin-top: -94rem;
+    margin-top: -142rem;
     background-color: #02a28f;
-    width: 17.5rem;
+    width: 95%;
     height: 3rem;
     color: white;
     border-radius: 5px;
@@ -394,7 +397,7 @@ footer {
     font-size: 0.7rem;
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    margin-left: 15rem;
+    margin-left: 25rem;
     margin-top: -3rem;
     padding-top: 0.4rem;
     white-space: nowrap;
@@ -402,11 +405,12 @@ footer {
 
   #img_recentes_media_1 {
     margin-top: 43rem;
+    margin-bottom: 1rem;
   }
 
   #posts_populares {
     margin-left: 0.3rem;
-    width: 17.5rem;
+    width: 95%;
     height: 2.7rem;
     background-color: #02a28f;
     color: white;
@@ -414,14 +418,14 @@ footer {
     justify-content: space-between;
     font-size: 1em;
     padding-top: 1em;
-    margin-top: 90rem;
+    margin-top: 137rem;
     padding-left: 1rem;
   }
 
 
   /* Posts Polulares classes*/
   .posts {
-    width: 17.5rem;
+    width: 29rem;
     height: 7rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -432,22 +436,22 @@ footer {
 
   .imagens {
     margin-top: -3.5rem;
-    width: 10rem;
-    padding-top: 4.3rem;
+    width: 12rem;
+    padding-top: 3.8rem;
     margin-left: 0.2rem;
   }
 
   .h3_posts {
     margin-top: -4rem;
-    margin-left: 10.7rem;
+    margin-left: 13.5rem;
     color: black;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .p_posts {
     color: #616161;
-    font-size: 0.6rem;
-    margin-left: 10.7rem;
+    font-size: 0.9rem;
+    margin-left: 13.5rem;
     margin-top: 0.3rem;
   }
 
@@ -464,7 +468,7 @@ footer {
     padding-top: 1.1rem;
     padding-left: 1.5rem;
     font-size: 1.6rem;
-    width: 16.8rem;
+    width: 94%;
     margin-bottom: 1rem;
     margin-left: 0.2rem;
     margin-top: 32rem;
@@ -480,13 +484,13 @@ footer {
   }
 
   .numeros {
-    padding-left: 16.5rem;
+    padding-left: 27rem;
     margin-top: -1rem;
   }
 
 
   footer {
-    width: 19.04rem;
+    width: 100%;
     height: 3rem;
     background-color: #02a28f;
     color: white;
